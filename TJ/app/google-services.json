@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "812461593417",
+    "firebase_url": "https://login-b4531.firebaseio.com",
+    "project_id": "login-b4531",
+    "storage_bucket": "login-b4531.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812461593417:android:7dbfb6a67e02fef68a0098",
+        "android_client_info": {
+          "package_name": "com.example.tj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812461593417-08u73kl0noarag7nd73hd06l4co6ml1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXe2SVRvGhScfrU98kgP5Ec64frZpwIs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812461593417-08u73kl0noarag7nd73hd06l4co6ml1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

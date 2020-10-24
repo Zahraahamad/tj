@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textColor="#6E379D"
+                android:textSize="45dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Full Name :"
+                android:textColor="#000000"
+                android:textSize="22dp" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:errorEnabled="true">
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text1"
+                android:layout_width="300dp"
+                android:inputType="textPersonName"
+                android:layout_height="35dp"
+                android:layout_marginTop="-20dp"
+                android:padding="5dp"
+                android:background="@drawable/custom_edittext2"
+                android:hint="Enter Full Name"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFA59797"
+                android:drawableLeft="@drawable/ic_baseline_account_circle_24"/>
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:text="Age :"
+                android:textColor="#000000"
+                android:textSize="22dp" />
+            <EditText
+                android:id="@+id/text2"
+                android:layout_width="130dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/custom_edittext2"
+                android:hint="Age"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:textColorHint="#FFA59797" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:text="Your Civil Id Number :"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp" />
+
+
+            <EditText
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/custom_edittext2"
+                android:hint="Id number"
+                android:textAlignment="center"
+                android:textColorHint="#FFA59797" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Your Mother Civil Id Number :"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/text5"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/custom_edittext2"
+                android:hint="Id number"
+                android:textColorHint="#FFA59797"
+                android:textAlignment="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 app:errorEnabled="true">
+
+             </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/text30"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="-30dp"
+                android:text="Enter Gmail :"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text6"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="-20dp"
+                android:background="@drawable/custom_edittext2"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:hint="Enter Your Gmail"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textColorHint="#FFA59797" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="96dp"
+                android:layout_height="27dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="80dp"
+                app:counterEnabled="true"
+                app:counterMaxLength="9"
+                app:errorEnabled="true"
+                app:passwordToggleEnabled="false">
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/text33"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="-90dp"
+                android:text="Enter Password:"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/text7"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-30dp"
+                android:background="@drawable/custom_edittext2"
+                android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+                android:hint="Enter Your Password"
+                android:inputType="textPassword"
+                android:padding="5dp"
+                android:textColorHint="#FFA59797" />
+
+            <TextView
+                android:id="@+id/text35"
+                android:layout_width="230dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="10dp"
+                android:text="Enter Phone Number :"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="300dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="-10dp"
+                android:background="@drawable/custom_edittext2"
+                android:drawableLeft="@drawable/ic_baseline_phone_24"
+                android:hint="Enter Your number"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFA59797" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:textColor="#FFFFFF"
+                android:text="register"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/custom_button2"
+                android:layout_marginBottom="90dp"/>
+            <ProgressBar
+                android:id="@+id/pg"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-170dp"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
